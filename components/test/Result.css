@@ -1,0 +1,63 @@
+.container {
+    max-width: 800px; /* Change max-width to 100% */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* School Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Set width to 100% */
+  }
+  
+  /* Student Information Section */
+  .student-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%; /* Set width to 100% */
+  }
+  
+  /* Student Result Table Section */
+  .result-table {
+    width: 100%; /* Make the table stretch full width */
+    margin-top: 40px; /* Add margin top */
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  .result-table2 {
+    width: 80%; /* Make the table stretch full width */
+    margin-top: 40px; /* Add margin top */
+
+  }
+  
+  .t2 {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  .t2 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+
+  
+  .t2 tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Stripped background for odd rows in table body */
+  }
+
+
+
+
+  
+
+
+
+  
